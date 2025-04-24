@@ -9,7 +9,7 @@ import streamlit as st
 def get_client():
     return OpenAI(
         base_url="https://api.deepseek.com/v1",
-        api_key='sk-d69980bdd41a4d228e3f783d4d92a246'
+        api_key='...'
     )
 
 client = get_client()
@@ -73,7 +73,7 @@ if st.button("回复"):
         else:
             adcode = city
         # 调用高德地图API获取天气信息
-        api_key = "2a7a4ccec0d76f5cfb9fe33d1969f219"
+        api_key = "..."
         if type == "实时":
             extensions = "base"
         else:
