@@ -6,7 +6,7 @@ from langchain_deepseek import ChatDeepSeek
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 import os
 
-os.environ["DEEPSEEK_API_KEY"] = 'sk-d69980bdd41a4d228e3f783d4d92a246'
+os.environ["DEEPSEEK_API_KEY"] = '...'
 
 @tool
 def web_loader(url: str) -> str:
